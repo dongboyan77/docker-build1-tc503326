@@ -1,4 +1,4 @@
-FROM 172.30.120.182:5000/jialiu/docker-build@sha256:48c7ae2d01faeb267b4f92c0f6ad60ada1714248fce58e3d5fbe2b34a2147d54
+FROM 172.31.165.66:5000/dyan3/docker-build-tc503326@sha256:5547b22fab5fde395f3742741eaa99a5fce89d6515d594c4637d0860262efd03
 ADD test /opt/jialiu_test
 
 ENTRYPOINT ["sh", "/bin/hack_init.sh"]
